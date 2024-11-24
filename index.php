@@ -47,7 +47,7 @@ include_once(__DIR__ . "/includes/check_login.php");
     <h1>Home</h1>
     <h3>Hello, <?= $_SESSION["username"] ?> </h3>
 
-    <p class="mt-5">EXTENSION TASK: 5 most recent posts</p>
+    <p class="mt-5">Extension task: 5 most recent posts</p>
   </div>
 
 
