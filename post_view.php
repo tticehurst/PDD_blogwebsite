@@ -63,6 +63,7 @@ $post = $query->fetch();
             if ($post) {
             ?>
               <div>
+                <p>Extension task: Add a way to delete posts</p>
                 <h5 class="card-title"><?= $post["title"] ?></h5>
                 <h6 class="card-subtitle text-muted mb-2"><?= $post["author"] ?></h6>
               </div>
