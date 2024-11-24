@@ -64,7 +64,7 @@ $posts = $query->fetchAll();
     </div>
 
     <div class="mt-3 text-center">
-      <h1>Extension task: Add a way to private posts and display them accordingly</h1>
+      <p>Extension task: Add a way to private posts and display them accordingly</p>
       <h3>All posts:</h3>
       <div class="d-flex flex-wrap justify-content-center gap-3">
 
