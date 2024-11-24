@@ -45,6 +45,8 @@ include_once(__DIR__ . "/includes/check_login.php");
 
   <div class="d-flex flex-column align-items-center mt-5">
     <div class="mt-2 w-75">
+      <p>Extension task: Add a private toggle - links with task on <a href="/posts.php">posts page</a></p>
+
       <div class="card p-4 shadow-lg rounded-4 bg-light">
         <h2 class="card-title text-center mb-4">Create New Blog Post</h2>
 
