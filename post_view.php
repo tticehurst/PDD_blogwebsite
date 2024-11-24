@@ -55,15 +55,15 @@ $post = $query->fetch();
 
   <div class="d-flex flex-column align-items-center mt-5 mb-5">
     <div class="mt-2 w-75">
-      <div class="card p-4 shadow-lg rounded-4 bg-light">
+      <p>Extension task: Add a way to delete posts</p>
 
+      <div class="card p-4 shadow-lg rounded-4 bg-light">
         <div class="card-body">
           <div class="d-flex justify-content-between align-items-center mb-3">
             <?php
             if ($post) {
             ?>
               <div>
-                <p>Extension task: Add a way to delete posts</p>
                 <h5 class="card-title"><?= $post["title"] ?></h5>
                 <h6 class="card-subtitle text-muted mb-2"><?= $post["author"] ?></h6>
               </div>
