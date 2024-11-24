@@ -54,6 +54,7 @@ $post = $query->fetch();
   </header>
 
   <div class="d-flex flex-column align-items-center mt-5 mb-5">
+    <h1>Extension task: Add a way to private posts and display them accordingly</h1>
     <div class="mt-2 w-75">
       <div class="card p-4 shadow-lg rounded-4 bg-light">
 
